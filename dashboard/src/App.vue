@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <PedidosComponente msg="Welcome to Your Vue.js App"/>
+    <h1>DASHBOARD</h1>
+    <LineChartContainer />
   </div>
 </template>
 
 <script>
-import PedidosComponente from './components/PedidosComponente.vue'
+import LineChartContainer from './components/ChartContainer'
 
 export default {
   name: 'App',
   components: {
-    PedidosComponente
+    LineChartContainer
   }
 }
 </script>
